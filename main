@@ -1,0 +1,5 @@
+current_Age = int(input('What is your age? '))
+
+hundredYear = 2020 - current_Age + 100
+
+print('You will be 100 years old in ' + str(hundredYear))
