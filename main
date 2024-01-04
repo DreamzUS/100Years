@@ -2,8 +2,8 @@ from datetime import date
 
 currentYear = date.today().year
 
-current_Age = int(input('What is your age? '))
+current_Age = int(input('What is your current age? '))
 
-hundredYear = currentYear - current_Age + 100
+hundredBirthday = currentYear - current_Age + 100
 
-print('You will be 100 years old in ' + str(hundredYear))
+print('You will be 100 years old in ' + str(hundredBirthday))
